@@ -7,47 +7,58 @@
     tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/title"
-        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/Createanaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a new account."
+        android:textColor="@color/purple_500"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login "
         android:textColor="#222943"
         android:textSize="25sp"
         android:textStyle="bold"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_login_email"
-        android:hint="Email Id"
-        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="16dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:hint="Email Id"
+        app:layout_constraintTop_toBottomOf="@+id/title">
 
 
-         <EditText
+        <EditText
             android:id="@+id/et_login_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            tools:text="abc@gmail.com"
-            />
+            tools:text="abc@gmail.com" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_login_password"
-        android:hint="Passcode"
-        app:layout_constraintTop_toBottomOf="@+id/til_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="16dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:hint="Passcode"
+        app:layout_constraintTop_toBottomOf="@+id/til_login_email">
 
 
         <EditText
@@ -55,27 +66,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            tools:text="12345"
-            />
+            tools:text="12345" />
     </com.google.android.material.textfield.TextInputLayout>
 
-        <Button
-            android:id="@+id/btn_login"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="16dp"
-            android:text="login"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:background="@color/teal_200"
-            android:textColor="@color/white"
-            android:foreground="?attr/selectableItemBackground"
-            app:layout_constraintTop_toBottomOf="@id/til_login_password"
-            />
-
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/teal_200"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="login"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/til_login_password"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="16dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
