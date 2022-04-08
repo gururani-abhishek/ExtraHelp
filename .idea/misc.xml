@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/computer science/abhishek gurrani/ExtraHelp/app/src/main/res/drawable/email_mode.xml" value="0.106" />
+        <entry key="..\:/computer science/abhishek gurrani/ExtraHelp/app/src/main/res/drawable/person_mode.xml" value="0.106" />
+        <entry key="..\:/computer science/abhishek gurrani/ExtraHelp/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/computer science/abhishek gurrani/ExtraHelp/app/src/main/res/layout/activity_signup_students.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/layout/activity_faculty_portal.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login_facutly.xml" value="0.19375" />

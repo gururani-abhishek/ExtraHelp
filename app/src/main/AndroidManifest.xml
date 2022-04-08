@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExtraHelp">
         <activity
+            android:name=".Studentsignup.signup_students"
+            android:exported="false" />
+        <activity
             android:name=".FacultyPortal"
             android:exported="false" />
         <activity
